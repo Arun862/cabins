@@ -208,21 +208,57 @@
     </div>
 
     <div class="foot">
-      <div class="card">
-        <div class="card-content">
-          <img src="vector.png" alt="" class="img" />
-          <h3 class="name">Name</h3>
-          <p class="caption">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.    
-          </p>
+      <swiper-container 
+      Freemode="true" 
+      loop="true"  
+      space-between="10"
+      style="width: 100%;" 
+      [slidesPerView]="slidesPerView">
+        <swiper-slide>
+          <div class="card">
+            <div class="card-content">
+              <img src="vector.png" alt="" class="img" />
+              <h3 class="name">Name A</h3>
+              <p class="caption">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
+                voluptua. At vero eos et accusam et justo duo dolores et ea rebum.    
+              </p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+        <div class="card">
+          <div class="card-content">
+            <img src="vector-2.png" alt="" class="img" />
+            <h3 class="name">Name B</h3>
+            <p class="caption">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
+              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.    
+            </p>
+          </div>
         </div>
-      </div>
+      </swiper-slide>
+
+      <swiper-slide>
+        <div class="card">
+          <div class="card-content">
+            <img src="vector.png" alt="" class="img" />
+            <h3 class="name">Name C</h3>
+            <p class="caption">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
+              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.    
+            </p>
+          </div>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
       <div class="card">
         <div class="card-content">
           <img src="vector-2.png" alt="" class="img" />
-          <h3 class="name">Name</h3>
+          <h3 class="name">Name D</h3>
           <p class="caption">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
             tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
@@ -230,6 +266,8 @@
           </p>
         </div>
       </div>
+    </swiper-slide>
+      </swiper-container>
     </div>
   </div>
 </section>
